@@ -9,4 +9,4 @@ LIVE PREVIEW BELOW
 ![faq](https://user-images.githubusercontent.com/95982650/210112758-3c93c378-0b9c-4a78-bc3a-3799f21bf43d.png)
 
 
-![live priview](https://sparkling-dusk-d9fdb1.netlify.app/)
+(https://sparkling-dusk-d9fdb1.netlify.app/)
