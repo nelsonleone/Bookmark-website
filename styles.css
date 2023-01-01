@@ -531,14 +531,32 @@ form button:hover{
 /* Media query for larger screens */
 @media (min-width:40rem) {
    .hero-image-area img{
-      width: 80%;
+      width: 60%;
       position: relative;
       top:1em;
       right:-1.2em;
    }
    .hero-image-area::before{
-      right:-9em;
+      right:-15em;
       bottom:-1em;
+      height:15rem;
+   }
+   .tabImage-container img{
+      width:25rem;
+      left:-9em;
+   }
+   .tabImage-container::before{
+      left:-1em;
+      width:30rem;
+      height:15rem;
+   }
+   .browser-cards div{
+      max-width:40%;
+   }
+   form button,
+   form input{
+      max-width:50%;
+      margin-inline:auto;
    }
    h1{
       margin-top:1em;
@@ -623,7 +641,9 @@ form button:hover{
    }
    .hero-image-area::before{
       right:-6em;
-      bottom:-1em;
+      height:20rem;
+      border-bottom-left-radius: 13rem;
+      bottom:-3em;
    }
 
 
@@ -673,9 +693,11 @@ form button:hover{
       top:-2em;
    }
    .tabImage-container::before{
-      bottom:0em;
+      bottom:-2em;
       left:-1em;
-      width:30rem;
+      width:33rem;
+      height:17rem;
+      border-bottom-right-radius: 13rem;
    }
    .tab-section .more-infoBtn{
       display:block;
