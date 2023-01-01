@@ -533,6 +533,9 @@ form button:hover{
    header{
       padding-inline:5em;
    }
+   h1{
+      font-size:2rem;
+   }
    .toggle-menu{
       display:none;
    }
@@ -598,10 +601,10 @@ form button:hover{
       right:-3em;
    }
    .hero-image-area img{
-      width: 100%;
+      width: calc(100% + 9rem);
       position: relative;
       top:1em;
-      left:-1em;
+      right:-1.2em;
    }
    .hero-image-area::before{
       right:-6em;
@@ -649,9 +652,9 @@ form button:hover{
       max-width:60%;
    }
    .tabImage-container img{
-      width:25rem;
+      width:28rem;
       position: relative;
-      left:7em;
+      left:5em;
       top:-2em;
    }
    .tabImage-container::before{
